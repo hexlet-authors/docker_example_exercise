@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "npx -n --experimental-vm-modules jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "sinon": "3.2.1"
+  }
+}
